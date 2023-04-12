@@ -1,0 +1,63 @@
+.row {
+  margin: 10px;
+  border-radius: 7px;
+  position: relative;
+}
+
+.modal-menu {
+  cursor: pointer;
+  display: flex;
+  margin: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  width: fit-content;
+}
+
+.cell {
+  border: solid 1px #d9dbdd;
+  width: 40px;
+  font-size: 10px;
+  padding: 5px;
+}
+
+.cell:nth-child(1) {
+  border-right: 0;
+  border-radius: 8px 0 0 8px;
+}
+
+.cell:nth-last-child(1) {
+  border-left: 0;
+  border-radius: 0 8px 8px 0;
+}
+
+.modal-input {
+  border: solid 1px #969595;
+  border-radius: 7px;
+  padding: 7px;
+  outline: 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.modal-input-error {
+  position: absolute;
+  font-size: 12px;
+  bottom: -12px;
+  color: #cf3817;
+  left: 0;
+}
+
+.error-outline {
+  border-color: #cf3817;
+}
+
+.active {
+  background-color: #4ab7ff;
+  color: white;
+  border: 0;
+  line-height: 13px;
+}
+
+.modal-button {
+  padding: 10px;
+}

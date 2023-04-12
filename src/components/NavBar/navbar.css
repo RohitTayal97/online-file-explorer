@@ -1,0 +1,37 @@
+.navbar {
+  display: flex;
+  flex-direction: row;
+  padding: 15px 0;
+  border-bottom: 1px solid #d9dbdd;
+}
+
+button:disabled {
+  opacity: 0.8;
+  cursor: default;
+}
+
+.navbar-button {
+  border: none;
+  border-radius: 10px;
+  padding: 0;
+  height: 20px;
+  width: 20px;
+  margin-right: 20px;
+}
+
+.breadcrumb {
+  cursor: pointer;
+}
+
+.breadcrumb:hover {
+  text-decoration: underline;
+}
+
+.navbar-button-logo {
+  rotate: -90deg;
+  background-color: white;
+}
+
+span.breadcrumb:nth-last-child(2) {
+  color: #2d2e2e;
+}

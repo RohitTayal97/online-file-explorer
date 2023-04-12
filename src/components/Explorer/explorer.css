@@ -1,0 +1,12 @@
+.explorer {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.createnew {
+  margin: 50px;
+  width: 100px;
+  height: 120px;
+  object-fit: contain;
+}

@@ -1,0 +1,28 @@
+.file {
+  margin: 30px;
+  padding: 20px;
+  height: 120px;
+  position: relative;
+  text-align: center;
+}
+
+.file:hover {
+  background-color: #e6f5ff;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+}
+
+.extension {
+  position: absolute;
+  background-color: #cf3817;
+  top: 85px;
+  font-size: 15px;
+  padding: 5px;
+  left: 45px;
+  color: white;
+  border-radius: 5px;
+}
