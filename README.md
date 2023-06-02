@@ -15,4 +15,4 @@ https://online-drive-file-explorer.netlify.app/
 - Validation runs on create and rename for not allowing duplicate file/folder, user is prompted with error in case of validation failure.
 - Truncated name is shown in case of longer file/folder names.
 
-Use `npm start` to run the app. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+To run the app locally, Use `npm start` to run the app. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
